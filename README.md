@@ -1,3 +1,18 @@
+# No nonsense HTML minifier
+
+Simple tool for online HTML minification. 
+
+⏱️ Written in one hour.
+
+Available here: https://minifyhtml.realhe.ro/
+
+## TODO
+
+* Better algorithm for compression (now it's silly regex)
+* Better UX and design
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
