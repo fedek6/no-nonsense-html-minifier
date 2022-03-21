@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>No nonsense HTML minifier</h1>
+        <h1>No nonsense HTML minifier v1</h1>
         <figure>
           <blockquote cite="https://dictionary.cambridge.org/dictionary/english/no-nonsense">
             Practical and serious, and only interested in doing what is
@@ -46,17 +46,18 @@ function App() {
         </figure>
       </header>
       <main>
+        <hr />
         <div>
           <h2>Paste code here:</h2>
           <textarea
             value={original}
             onChange={handleOriginal}
-            onClick={(e) => e.target.select()}
+            onClick={() => setOriginal("")}
           />
         </div>
         <div>
           <h2>
-            Minified code <small>click to copy</small>:
+            Minified code <small>click textarea to copy</small>:
           </h2>
           <textarea
             value={minified}
