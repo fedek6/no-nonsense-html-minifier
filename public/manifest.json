@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "No nonsense HTML minifier",
+  "name": "No nonsense HTML minifier",
   "icons": [
     {
       "src": "favicon.ico",
