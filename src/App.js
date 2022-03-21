@@ -48,7 +48,7 @@ function App() {
       <main>
         <hr />
         <div>
-          <h2>Paste code here:</h2>
+          <h2>Paste code here <small>click textarea to clear</small></h2>
           <textarea
             value={original}
             onChange={handleOriginal}
@@ -57,7 +57,7 @@ function App() {
         </div>
         <div>
           <h2>
-            Minified code <small>click textarea to copy</small>:
+            Minified code <small>click textarea to copy</small>
           </h2>
           <textarea
             value={minified}
